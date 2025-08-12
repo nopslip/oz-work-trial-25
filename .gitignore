@@ -1,0 +1,30 @@
+# CLAUDE.md
+
+# Environment files
+.env
+*.env.local
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+openzeppelin-relayer/plugins/node_modules/
+target/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+*.cache.env
