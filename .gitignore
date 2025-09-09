@@ -4,6 +4,11 @@
 .env
 *.env.local
 
+# Network configs with RPC keys
+openzeppelin-monitor/config/networks/ethereum_sepolia.json
+openzeppelin-relayer/config/networks/ethereum.json
+**/config/networks/*sepolia*.json
+
 # IDE files
 .vscode/
 .idea/
